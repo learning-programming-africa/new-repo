@@ -1,10 +1,10 @@
 # Question #0
 To allocate enough space for an array of 10 integers (on a 64bit, Linux machine), I can use:
 
-[x] malloc(64 * 10)
+[ ] malloc(64 * 10)
 
 
-[x] malloc(10 * int)
+[ ] malloc(10 * int)
 
 
 [x] malloc(10 * sizeof(int))
@@ -17,16 +17,16 @@ If I want to copy the string “Best School” into a new space in memory, I can
 [x] malloc(sizeof(“Best School”))
 
 
-[x] malloc(strlen(“Best School”))
+[] malloc(strlen(“Best School”))
 
 
-[x] malloc(11)
+[] malloc(11)
 
 
 [x] malloc(12)
 
 
-[x] malloc(sizeof(“Best School”) + 1)
+[] malloc(sizeof(“Best School”) + 1)
 
 
 [x] malloc(strlen(“Best School”) + 1)
@@ -39,7 +39,7 @@ malloc returns a pointer
 [x] True
 
 
-[x] False
+[ ] False
 
 # Question #3
 malloc returns an address
@@ -48,7 +48,7 @@ malloc returns an address
 [x] True
 
 
-[x] False
+[] False
 
 # Question #4
 What is wrong with this code:
@@ -64,13 +64,13 @@ int cp(void)
     return (0);
 }
 
-[x] You don’t have enough space to store the copy of the string “Best School”
+[] You don’t have enough space to store the copy of the string “Best School”
 
 
 [x] There is no comment
 
 
-[x] You can’t call strcpy with a string literal
+[] You can’t call strcpy with a string literal
 
 
 [x] malloc can fail so we should check its return value all the time before using the pointers returned by the function.
@@ -80,7 +80,7 @@ You can do this:
 
 free("Best School");
 
-[x] Yes
+[] Yes
 
 
 [x] No
@@ -92,7 +92,7 @@ char str[] = "Best School";
 
 free (str);
 
-[x] Yes
+[] Yes
 
 
 [x] No
@@ -111,13 +111,13 @@ if (s != NULL)
 [x] Yes
 
 
-[x] No
+[] No
 
 # Question #8
 The memory space reserved when calling malloc is on:
 
 
-[x] The stack
+[] The stack
 
 
 [x] The heap
@@ -134,13 +134,13 @@ int main(void)
     return (0);
 }
 
-[x] 0
+[] 0
 
 
-[x] 98
+[] 98
 
 
-[x] It doesn’t compile
+[] It doesn’t compile
 
 
 [x] Segmentation Fault
